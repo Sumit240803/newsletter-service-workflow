@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>News Cards</title></head>
+<body style="margin:0;background:#eef1f5;font-family:Arial,sans-serif;">
+<table width="100%" cellpadding="0" cellspacing="0" style="background:#eef1f5;"><tr><td align="center" style="padding:30px 15px;">
+<table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background:#fff;">
+<tr><td style="padding:28px;background:#111;color:#fff;"><h1 style="margin:0;">The Newsroom</h1><p style="margin:7px 0 0;color:#ccc;">Your daily news digest · {{date}}</p></td></tr>
+<tr><td style="padding:25px;">
+<div style="border:1px solid #e5e7eb;padding:18px;margin-bottom:18px;"><p style="margin:0 0 8px;color:#2563eb;font-size:12px;font-weight:bold;">{{article1.category}}</p><h2 style="margin:0 0 10px;color:#111;font-size:21px;">{{article1.title}}</h2><p style="color:#555;line-height:1.6;">{{article1.summary}}</p><a href="{{article1.url}}" style="display:inline-block;background:#111;color:#fff;text-decoration:none;padding:11px 18px;">Read Story</a></div>
+<div style="border:1px solid #e5e7eb;padding:18px;margin-bottom:18px;"><p style="margin:0 0 8px;color:#16a34a;font-size:12px;font-weight:bold;">{{article2.category}}</p><h2 style="margin:0 0 10px;color:#111;font-size:21px;">{{article2.title}}</h2><p style="color:#555;line-height:1.6;">{{article2.summary}}</p><a href="{{article2.url}}" style="display:inline-block;background:#111;color:#fff;text-decoration:none;padding:11px 18px;">Read Story</a></div>
+<div style="border:1px solid #e5e7eb;padding:18px;"><p style="margin:0 0 8px;color:#dc2626;font-size:12px;font-weight:bold;">{{article3.category}}</p><h2 style="margin:0 0 10px;color:#111;font-size:21px;">{{article3.title}}</h2><p style="color:#555;line-height:1.6;">{{article3.summary}}</p><a href="{{article3.url}}" style="display:inline-block;background:#111;color:#fff;text-decoration:none;padding:11px 18px;">Read Story</a></div>
+</td></tr>
+<tr><td style="padding:20px;text-align:center;background:#fafafa;font-size:12px;color:#888;"><a href="{{unsubscribeUrl}}" style="color:#777;">Unsubscribe</a></td></tr>
+</table></td></tr></table></body></html>

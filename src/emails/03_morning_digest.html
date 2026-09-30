@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Morning Digest</title></head>
+<body style="margin:0;background:#faf7f0;font-family:Georgia,serif;">
+<table width="100%" cellpadding="0" cellspacing="0" style="background:#faf7f0;"><tr><td align="center" style="padding:35px 15px;">
+<table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background:#fff;">
+<tr><td align="center" style="padding:30px;border-bottom:3px solid #222;"><p style="margin:0;text-transform:uppercase;letter-spacing:2px;font:12px Arial;color:#777;">The Morning Edition</p><h1 style="margin:10px 0;font-size:32px;">Start Your Day Informed</h1><p style="margin:0;color:#777;">{{date}}</p></td></tr>
+<tr><td style="padding:30px;"><p style="font:15px Arial;color:#555;">Good morning, {{firstName}}.</p><h2 style="font-size:25px;">Today's Lead</h2><h3 style="font-size:22px;">{{article1.title}}</h3><p style="font:15px Arial;line-height:1.7;color:#555;">{{article1.summary}}</p><a href="{{article1.url}}" style="font:14px Arial;color:#111;font-weight:bold;">Continue reading →</a>
+<hr style="border:0;border-top:1px solid #ddd;margin:30px 0;"><h2 style="font-size:21px;">More Headlines</h2>
+<p><strong>{{article2.title}}</strong><br><span style="font:14px Arial;color:#666;">{{article2.summary}}</span><br><a href="{{article2.url}}" style="font:13px Arial;color:#111;">Read more</a></p>
+<p style="margin-top:25px;"><strong>{{article3.title}}</strong><br><span style="font:14px Arial;color:#666;">{{article3.summary}}</span><br><a href="{{article3.url}}" style="font:13px Arial;color:#111;">Read more</a></p>
+</td></tr>
+<tr><td style="padding:20px;text-align:center;background:#f5f5f5;font:12px Arial;color:#888;">Morning Edition · <a href="{{unsubscribeUrl}}" style="color:#777;">Unsubscribe</a></td></tr>
+</table></td></tr></table></body></html>
