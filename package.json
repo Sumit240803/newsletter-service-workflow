@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch src --ext ts --exec tsx src/app.ts"
   },
   "keywords": [],
   "author": "",
@@ -17,9 +18,14 @@
     "dotenv": "^18.0.4",
     "express": "^5.2.1",
     "prisma": "^7.10.0",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   },
   "dependencies": {
-    "mongoose": "^9.10.3"
+    "@prisma/adapter-pg": "^7.10.0",
+    "@prisma/extension-accelerate": "^3.0.1",
+    "mongoose": "^9.10.3",
+    "nodemon": "^3.1.14",
+    "pg": "^8.23.1"
   }
 }
